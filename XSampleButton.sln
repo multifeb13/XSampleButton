@@ -13,6 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSampleButton.UWP", "XSampl
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		XSampleButton\XSampleButton\XSampleButton.projitems*{0d8d6d79-17cc-4a5f-a67f-573ca7db281b}*SharedItemsImports = 4
 		XSampleButton\XSampleButton\XSampleButton.projitems*{abefb1bd-c759-490b-bfe5-e825fd4791d7}*SharedItemsImports = 4
 		XSampleButton\XSampleButton\XSampleButton.projitems*{ac654dc0-7491-4079-b8c0-5aa65d2c0aa7}*SharedItemsImports = 4
 		XSampleButton\XSampleButton\XSampleButton.projitems*{f308afc0-8782-45a4-8d92-a6cf7172faed}*SharedItemsImports = 13
