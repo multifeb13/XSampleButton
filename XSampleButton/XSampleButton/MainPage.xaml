@@ -3,14 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:XSampleButton"
              x:Class="XSampleButton.MainPage">
+    <StackLayout Padding="20" Spacing="15">
+    	<Label Text="Welcome to Xamarin Forms!" 
+            VerticalOptions="Center" />
 
-    <!--
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" /> -->
-
-    <Button Text="This is Button"
+        <Button Text="This is Button"
             VerticalOptions="Center" 
-            HorizontalOptions="Center"
             Clicked="Button_Clicked" />
+    </StackLayout>
 </ContentPage>
