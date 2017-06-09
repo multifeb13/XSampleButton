@@ -12,12 +12,12 @@ namespace XSampleButton
 		public MainPage()
 		{
 			InitializeComponent();
-		}
 
-        void Button_Clicked(object sender, System.EventArgs e)
-        {
-            //System.Diagnostics.Debug.WriteLine("Button Clicked");
-            DisplayAlert("これはタイトルです", "これは表示するメッセージです", "はい");
+            btn1.Clicked += (sender, e) =>
+            {
+                //System.Diagnostics.Debug.WriteLine("Button Clicked");
+                DisplayAlert("これはタイトルです", "これは表示するメッセージです", "はい");
+            };
         }
     }
 }

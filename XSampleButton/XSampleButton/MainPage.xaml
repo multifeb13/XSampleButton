@@ -7,8 +7,7 @@
     	<Label Text="Welcome to Xamarin Forms!" 
             VerticalOptions="Center" />
 
-        <Button Text="This is Button"
-            VerticalOptions="Center" 
-            Clicked="Button_Clicked" />
+        <Button x:Name="btn1" Text="This is Button"
+            VerticalOptions="Center" />
     </StackLayout>
 </ContentPage>
